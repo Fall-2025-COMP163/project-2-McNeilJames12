@@ -3,6 +3,7 @@ COMP 163 - Project 2: Character Abilities Showcase
 Name: James McNeil
 Date: 11/08/25
 
+
 AI Usage: [Document any AI assistance used]
 Example: AI helped with inheritance structure and method overriding concepts
 """
