@@ -1,0 +1,19 @@
+Project Description:
+
+This project demonstrates core OOP concepts—inheritance, polymorphism, method overriding, and composition—by creating a simple fantasy character system.
+Three player classes (Warrior, Mage, Rogue) inherit from a shared Player class, which itself inherits from the base Character class.
+A separate Weapon class is included to show composition.
+A provided SimpleBattle system is used to test interactions between characters.
+
+
+
+Bonus Creative Features:
+
+Added enhanced combat messages for immersion (critical hit effects, spell dialogue).
+Improved stat displays for readability.
+Included weapon objects even though they are not required in battle (extra demonstration of composition).
+
+
+AI Usage:
+
+None
