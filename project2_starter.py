@@ -235,7 +235,9 @@ class Rogue(Player):
             print(f"💥 CRITICAL HIT! {self.name} strikes {target.name} for {damage} damage!")
         else:
             print(f"{self.name} swiftly attacks {target.name} for {damage} damage.")
-
+        
+        
+        target.take_damage(damage)
     def sneak_attack(self, target):
         """
         Guaranteed critical hit attack.
