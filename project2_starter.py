@@ -92,9 +92,9 @@ class Character:
         """
         # Subtract damage from health
         self.health -= damage
-
-        # Print update if health becomes low/zero
-        if self.health <= 0:
+        if self.health < 0:
+            self.health=0
+        if self.health == 0:
             print(f"{self.name} takes {damage} damage! Health is now: {self.health}.")
 
 
